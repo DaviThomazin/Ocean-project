@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  text-decoration: underline;
+}
+
+.header a {
+  color: var(--color-text);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.header-menu {
+  display: flex;
+  gap: 51px;
+}

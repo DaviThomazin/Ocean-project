@@ -1,0 +1,63 @@
+@import "css/header.css";
+@import "css/home.css";
+@import "css/about.css";
+
+:root {
+  --color-text: #e6e6e6;
+  --color-bg: #2d2d2d;
+  --color-sub-title: #666666;
+  --color-sub-text: #3d3d3d;
+  --color-green: #64b657;
+  --color-blue: #5daad6;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 1000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1324px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.green {
+  color: var(--color-green);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.blue {
+  color: var(--color-blue);
+  text-decoration: underline;
+  cursor: pointer;
+}
