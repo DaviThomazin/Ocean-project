@@ -1,0 +1,33 @@
+.home {
+  display: grid;
+  justify-content: center;
+}
+
+.home h1 {
+  text-align: center;
+  padding-top: 64px;
+}
+
+.video-container {
+  height: auto;
+  padding-top: 44px;
+  justify-self: center;
+}
+
+.video-container video {
+  border-radius: 10px;
+}
+
+.home h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.home p {
+  width: 50ch;
+  font-size: 1.125rem;
+  text-align: center;
+  justify-self: center;
+  padding-top: 12px;
+  color: #ffffff;
+}
